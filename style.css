@@ -1,0 +1,12 @@
+body {
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}

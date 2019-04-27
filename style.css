@@ -1,7 +1,7 @@
 body {
     display: -ms-flexbox;
     display: flex;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     color: #ffffff;
 }
 
@@ -9,4 +9,22 @@ a,
 a:focus,
 a:hover {
     color: #fff;
+}
+
+.switch {
+    -webkit-animation: switchtext 0.5s infinite alternate;
+    -moz-animation: switchtext 0.5s infinite alternate;
+    animation: switchtext 0.5s infinite alternate;
+}
+@-webkit-keyframes switchtext {
+    from { opacity: 1.0; }
+    to { opacity: 0; }
+}
+@-moz-keyframes switchtext {
+    from { opacity: 1.0; }
+    to { opacity: 0; }
+}
+@keyframes switchtext {
+    from { opacity: 1.0; }
+    to { opacity: 0; }
 }

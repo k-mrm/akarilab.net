@@ -5,6 +5,23 @@ body {
     color: #ffffff;
 }
 
+img {
+    margin: 10%;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+img:focus,
+img:hover {
+    box-shadow: 0px 0px 5px #ffffff ,
+    0px 0px 20px #326693,
+    0px 0px 40px #326693,
+    0px 0px 60px #31a9ee,
+    0px 0px 80px #31a9ee;
+    0px 0px 100px #31a9ee;
+}
+
 a,
 a:focus,
 a:hover {

@@ -2,7 +2,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     font-family: 'Ubuntu Mono', monospace;
-    color: #ffffff;
+    margin: 50px 30px 0px 30px;
 }
 
 img {
@@ -25,7 +25,7 @@ img:hover {
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: #222;
 }
 
 .switch {

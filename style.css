@@ -22,13 +22,6 @@ img:hover {
     0px 0px 100px #31a9ee;
 }
 
-a,
-a:focus,
-a:hover {
-    color: #222;
-    text-decoration:underline solid;
-}
-
 .switch {
     -webkit-animation: switchtext 0.5s infinite alternate;
     -moz-animation: switchtext 0.5s infinite alternate;

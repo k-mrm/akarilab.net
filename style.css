@@ -26,6 +26,7 @@ a,
 a:focus,
 a:hover {
     color: #222;
+    text-decoration:underline solid;
 }
 
 .switch {

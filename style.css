@@ -43,7 +43,7 @@ img:hover {
 .mochi {
   display: inline-block;
   transform-origin: bottom center;
-  animation: mochiSquish 0.3s ease-in-out infinite;
+  animation: mochiSquish 0.2s ease-in-out infinite;
 }
 
 @keyframes mochiSquish {

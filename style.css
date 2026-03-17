@@ -39,3 +39,16 @@ img:hover {
     from { opacity: 1.0; }
     to { opacity: 0; }
 }
+
+.mochi {
+  display: inline-block;
+  transform-origin: bottom center;
+  animation: mochiSquish 0.3s ease-in-out infinite;
+}
+
+@keyframes mochiSquish {
+  0%   { transform: scaleX(1) scaleY(1); }
+  30%  { transform: scaleX(1.08) scaleY(0.93); }
+  60%  { transform: scaleX(1.04) scaleY(0.97); }
+  100% { transform: scaleX(1) scaleY(1); }
+}

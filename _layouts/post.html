@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css" type="text/css"/>
+    <title>{{ page.title }} - akkarine</title>
+  </head>
+  <body>
+    <div class="container">
+      <p><a href="/blogs/">← blogs</a></p>
+      <h3>{{ page.title }}</h3>
+      <p>{{ page.date | date: "%Y-%m-%d" }}</p>
+      {{ content }}
+    </div>
+  </body>
+</html>
